@@ -1,0 +1,32 @@
+{
+  "name": "blog2knowledge",
+  "version": "1.0.0",
+  "description": "A tool to export blog articles to clean PDF files using sitemap",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "blog2knowledge": "tsx src/scripts/cli.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.17.1",
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.0.0",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0",
+    "ora": "^7.0.1",
+    "puppeteer": "^21.0.0",
+    "tsx": "^4.19.2",
+    "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "@types/xml2js": "^0.4.11",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
